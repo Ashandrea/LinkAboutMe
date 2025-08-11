@@ -1,0 +1,119 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Profile Section */
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #f8f9fa;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+p {
+    color: #7f8c8d;
+    margin-bottom: 25px;
+}
+
+/* Links Section */
+.links {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.link i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+}
+
+.linkedin {
+    background: #0077b5;
+}
+
+.portfolio {
+    background: #2c3e50;
+}
+
+.link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+    color: #95a5a6;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .link {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
